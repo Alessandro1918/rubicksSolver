@@ -8,7 +8,7 @@ A python script to solve a Rubik's Cube!
   
   
 ## :clipboard: Intro
-Shuffle a new Rubik's Cube, and watch the program try to fix it! By performing a Breadth First Search in the node tree of states, the returned answer will be for sure the shortest one!
+Shuffle a new Rubik's Cube, and watch the program try to fix it! By performing a Breadth First Search in the node tree of cube states, the returned answer will be for sure the shortest one!
 
 
 ## :hammer_and_wrench: Requirements
