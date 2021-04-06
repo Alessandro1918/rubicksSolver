@@ -1,7 +1,7 @@
 """
 Rubik's Cube structure:
      ---
-    | T |
+    | U |
  --- --- --- 
 | L | F | R |
  --- --- --- 
@@ -19,12 +19,12 @@ Numeration pattern:
 | 7 | 8 | 9 |
  --- --- ---
 
-Up:     1 -  9
-Front:  10 - 18
-Left:   19 - 27
-Right:  28 - 36
-Down:   37 - 45
-Back:   46 - 54
+[U]p:     1 -  9
+[F]ront:  10 - 18
+[L]eft:   19 - 27
+[R]ight:  28 - 36
+[D]own:   37 - 45
+[B]ack:   46 - 54
 
 """
 
@@ -33,7 +33,7 @@ class RubiksCube:
     # init a Rubicks Cube as a list of 54 ints
     def __init__(self):
         cube = []
-        for i in range(55):
+        for i in range(1, 55):
             cube.append(i)
         self.cube = cube
     
